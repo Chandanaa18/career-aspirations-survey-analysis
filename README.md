@@ -41,11 +41,13 @@ data = pd.read_csv("Your Career Aspirations of GenZ.csv")
 print(data.head())
 ```
 ![Screenshot 2024-04-27 235046](https://github.com/Chandanaa18/career-aspirations-survey-analysis/assets/150374189/26f16d47-b728-4190-af39-1e7cf0c9a2f5)
+![Screenshot 2024-04-27 235106](https://github.com/Chandanaa18/career-aspirations-survey-analysis/assets/150374189/4a5d5322-7b40-4610-83c4-8a388cc3b039)
 
 Lets see all the questions 
 ```bash
 print(data.columns)
 ```
+![Screenshot 2024-04-28 001729](https://github.com/Chandanaa18/career-aspirations-survey-analysis/assets/150374189/31ef06b6-0e77-4f3c-8232-d4f2d87ac7a8)
 
 Lets analyse the current country question by pie chart
 ```bash
@@ -59,6 +61,8 @@ fig.update_traces(hoverinfo='label+value', textinfo='percent', textfont_size=30,
                   marker=dict(colors=colors, line=dict(color='black', width=3)))
 fig.show()
 ```
+![Screenshot 2024-04-28 001832](https://github.com/Chandanaa18/career-aspirations-survey-analysis/assets/150374189/8a69cc68-e34e-4b82-b048-d33c82253510)
+
 Lets analyse the same current country question by line graph
 
 ```bash
@@ -72,6 +76,8 @@ fig.update_layout(title='Current Country', xaxis_title='Country', yaxis_title='C
 
 fig.show()
 ```
+![Screenshot 2024-04-24 230541](https://github.com/Chandanaa18/career-aspirations-survey-analysis/assets/150374189/a70662c9-66ed-413a-9394-4d009dc0fe46)
+
 Lets analyse "Which of the below factors influence the most about your career aspirations ?"
 
 ```bash
@@ -85,6 +91,7 @@ fig.update_traces(hoverinfo='label+value', textinfo='percent', textfont_size=30,
                   marker=dict(colors=colors, line=dict(color='black', width=3)))
 fig.show()
 ```
+![Screenshot 2024-04-25 074925](https://github.com/Chandanaa18/career-aspirations-survey-analysis/assets/150374189/2577d4ff-32a1-49e2-81cb-cfccad02b5eb)
 
 
 In the same way you can analyse for all the questions 

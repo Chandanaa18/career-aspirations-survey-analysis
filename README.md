@@ -40,6 +40,8 @@ import plotly.graph_objects as go
 data = pd.read_csv("Your Career Aspirations of GenZ.csv")
 print(data.head())
 
+![Screenshot 2024-04-27 235046](https://github.com/Chandanaa18/career-aspirations-survey-analysis/assets/150374189/26f16d47-b728-4190-af39-1e7cf0c9a2f5)
+
 ```
 Lets see all the questions 
 ```bash
